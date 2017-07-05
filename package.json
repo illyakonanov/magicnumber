@@ -1,0 +1,35 @@
+{
+  "name": "magic-number",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Transforms a magic number.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js --exec babel-node",
+    "test": "./node_modules/.bin/mocha test.js --reporter spec"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "stage-0"
+    ]
+  },
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.0",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1"
+  }
+}

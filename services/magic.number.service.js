@@ -1,0 +1,1 @@
+export const makeMagicNumber = (x, y) => Math.sqrt(x * y);
